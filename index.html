@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{description}">
+        <title>advanced time</title>
+
+
+        <link rel="stylesheet" href="css/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script async="" src="js/script.js"></script>
+
+
+
+    </head>
+    <body>
+    
+        <div class="settings-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-gear-fill x" viewBox="0 0 16 16"
+                onclick="openmenu()">
+                <path
+                    d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+            </svg>
+            <div class="settings">
+                <div class="aside">
+                    <div class="ml">Настройки</div>
+                    
+    
+                    <div class="label" data-set=".mode-set">
+                        <svg data-set=".mode-set" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-stopwatch" viewBox="0 0 16 16">
+                            <path data-set=".mode-set"
+                                d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z" />
+                            <path data-set=".mode-set"
+                                d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z" />
+                        </svg>
+                        <div class="ctn" data-set=".mode-set">Режим</div>
+                    </div>
+    
+                    <div class="label" data-set=".tw-set">
+                        <svg data-set=".tw-set" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path data-set=".tw-set"
+                                d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                            <path data-set=".tw-set"
+                                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+                        </svg>
+                        <div data-set=".tw-set" class="ctn">24/12</div>
+                    </div>
+    
+    
+                    
+                    <a class="label" href="." style="color:#fff; text-decoration: none;" display="none">Назад</a>
+    
+                </div>
+                <div class="main qm">
+    
+                    <div class="welcome-set">
+                        <div class="return-set">
+                            </div>
+                                <div class="title-set">Добро пожаловать в настройки</div>
+                                <div class="ctn-set">
+                                    Выберите что вы хотите
+                                </div>
+                        </div>
+    
+                        <div class="language-set s-close">
+                            <div class="return-set">
+                            </div>
+                                    <div class="title-set">Выберите язык</div>
+                                    <div class="ctn-set">
+                                        !!NOT IMPLEMENTED!!
+                                        <div class="radio">
+                                            <input class="custom-radio" type="radio" id="lang-ru" name="lang" value="RU">
+                                            <label for="lang-ru">Русский</label>
+                                        </div>
+                                        <div class="radio">
+                                            <input class="custom-radio" type="radio" id="lang-en" name="lang" value="EN">
+                                            <label for="lang-en">Английский</label>
+                                        </div>
+                                    </div>
+                            </div>
+    
+                            <div class="mode-set s-close">
+                                <div class="return-set">
+                                    </div>
+                                        <div class="title-set">Выберите режим</div>
+                                        !!ЧТОБ РАБОТАЛ ТАЙМЕР ВВЕДИ ВРЕМЯ!!
+                                        <div class="ctn-set">
+                                            <div class="radio">
+                                                <input class="custom-radio" type="radio" id="mode-clock" name="mode"
+                                                    value="CLOCK" checked>
+                                                <label for="mode-clock">Часы</label>
+                                            </div>
+                                            <div class="radio">
+                                                <input class="custom-radio" type="radio" id="mode-timer" name="mode"
+                                                    value="TIMER">
+                                                <label for="mode-timer">Таймер</label>
+                                                <input type="time" id="appt" name="appt" min="00:00:01" step=1
+                                                    max="24:00:00" required>
+                                            </div>
+                                            <div class="radio">
+                                                <input class="custom-radio" type="radio" id="mode-secundomer" name="mode"
+                                                    value="SECUNDOMER">
+                                                <label for="mode-secundomer">Секундомер</label>
+                                            </div>
+                                        </div>
+                                </div>
+    
+                                <div class="tw-set s-close">
+                                    <div class="return-set">
+                                        </div>
+                                            <div class="title-set">Выберите ?систему?</div>
+                                            <div class="ctn-set">
+                                                <div class="radio">
+                                                    <input class="custom-radio" type="radio" id="sys-24" name="sys"
+                                                        value="24">
+                                                    <label for="sys-24">24</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input class="custom-radio" type="radio" id="sys-12" name="sys"
+                                                        value="12">
+                                                    <label for="sys-12">12</label>
+                                                </div>
+                                            </div>
+                                    </div>
+    
+                                    <div class="hehe-set s-close">
+                                        <div class="return-set">
+                                            </div>
+                                                <div class="title-set">Разрешить hehe</div>
+                                                <div class="ctn-set">
+                                                    <div class="radio">
+                                                        <input type="checkbox" id="hehehehe" name="hehe">
+                                                        <label for="hehehehe">Да</label>
+                                                    </div>
+                                                </div>
+                                        </div>
+    
+                                    </div>
+                                    <div class="closeline"></div>
+                                </div>
+                            </div>
+    
+                            <div class="inner-cursor"></div>
+    
+                            <div class="hehe-container"></div>
+    
+                            <main>
+    
+                                <div class="timer">
+    
+                                    <div class="h">
+                                        00<br>
+                                        01<br>
+                                        02<br>
+                                        03<br>
+                                        04<br>
+                                        05<br>
+                                        06<br>
+                                        07<br>
+                                        08<br>
+                                        09<br>
+                                        10<br>
+                                        11<br>
+                                        12<br>
+                                        <div class="heh">
+                                            13<br>
+                                            14<br>
+                                            15<br>
+                                            16<br>
+                                            17<br>
+                                            18<br>
+                                            19<br>
+                                            20<br>
+                                            21<br>
+                                            22<br>
+                                            23<br>
+                                        </div>
+                                        <div class="hehe24">24<br></div>
+                                    </div>
+    
+                                    <div class="dt">
+                                        :
+                                    </div>
+    
+    
+                                    <div class="m-1">
+                                        0<br>
+                                        1<br>
+                                        2<br>
+                                        3<br>
+                                        4<br>
+                                        5<br>
+                                        <br>
+                                    </div>
+    
+                                    <div class="m-2">
+                                        0<br>
+                                        1<br>
+                                        2<br>
+                                        3<br>
+                                        4<br>
+                                        5<br>
+                                        6<br>
+                                        7<br>
+                                        8<br>
+                                        9<br>
+                                    </div>
+    
+                                    <div class="dt">
+                                        :
+                                    </div>
+    
+                                    <div class="s-1">
+                                        0<br>
+                                        1<br>
+                                        2<br>
+                                        3<br>
+                                        4<br>
+                                        5<br>
+                                        <br>
+                                    </div>
+    
+                                    <div class="s-2">
+                                        0<br>
+                                        1<br>
+                                        2<br>
+                                        3<br>
+                                        4<br>
+                                        5<br>
+                                        6<br>
+                                        7<br>
+                                        8<br>
+                                        9<br>
+                                    </div>
+    
+                                    <div class="dt dtms">
+                                        :
+                                    </div>
+    
+                                    <div class="ms">
+                                        000
+                                    </div>
+    
+                                </div>
+    
+                            </main>
+    
+    </body>
+
+    </html>
